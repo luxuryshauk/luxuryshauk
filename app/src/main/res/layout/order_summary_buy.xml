@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/snippet_top_view_profilebar"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buy_comtainer"></FrameLayout>
+
+<TextView
+    android:id="@+id/order_no"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ORDER ID"
+    android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+    android:background="@drawable/follow_button"
+
+    android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/order_no"
+        android:layout_margin="20dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/caption_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_no"
+        android:layout_marginTop="30dp"
+        android:textSize="14dp"
+        android:maxLines="2"
+        android:layout_toEndOf="@+id/imageView"
+        android:textStyle="bold"
+        android:text="Caption" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caption_sum"
+        android:layout_toEndOf="@+id/imageView"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:text="10-Feb-2018" />
+
+    <TextView
+        android:id="@+id/seller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caption_sum"
+        android:layout_toRightOf="@id/imageView"
+        android:textSize="8dp"/>
+
+   <!-- <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_no"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:textSize="8dp"
+        android:text="₹ 40000" />-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER SUMMARY"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/grey_border_bottom"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER SUMMARY"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/grey_border_bottom"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER SUMMARY"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/price_display_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹ 1300"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELIVERY CHARGES"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FREE"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:background="@drawable/grey_border_bottom"
+        android:text=""
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+    android:id="@+id/text7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="PAYMENT METHOD"
+    android:layout_below="@id/imageView"
+    android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+    android:textStyle="bold"
+    android:background="@drawable/grey_border_bottom"/>
+
+    <TextView
+        android:id="@+id/payment_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ONLINE"
+        android:textStyle="bold"
+        android:layout_below="@id/text7"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#8BC34A"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payment_method"
+        android:background="@drawable/grey_border_bottom"
+        android:text=""
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/ship_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHIP TO"
+        android:layout_below="@id/text7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:background="@drawable/grey_border_bottom"/>
+
+    <TextView
+        android:id="@+id/CustomerName_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YASEEN AMMAAR"
+        android:layout_below="@id/ship_to"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/Address_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90 5th floor New Friends Colony,"
+        android:layout_below="@id/CustomerName_sum"
+        android:maxLines="2"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/phone_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No +91 90909090909"
+        android:layout_below="@id/Address_sum"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra requirement"
+        android:textStyle="bold"
+        android:id="@+id/text10"
+        android:layout_below="@id/phone_sum"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/grey_border_bottom"
+        />
+    <TextView
+        android:id="@+id/extra_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/text10"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+
+
+<TextView
+    android:id="@+id/greyline1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/extra_text"
+    android:background="@drawable/grey_border_bottom"/>
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracking Details"
+        android:layout_below="@id/greyline1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/grey_border_bottom"/>
+
+
+    <TextView
+        android:id="@+id/track_details_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated : Click here / Not updated"
+        android:layout_below="@id/text8"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/extra"
+        android:layout_below="@+id/track_details_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_border_bottom"/>
+
+
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Status"
+        android:layout_below="@id/track_details_status"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/grey_border_bottom"/>
+
+
+    <TextView
+        android:id="@+id/order_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/text9"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_border_bottom"/>
+
+
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/snippet_top_all"
+        android:id="@+id/topall"/>
+
+    <ListView
+
+        android:id="@+id/order_all"
+        android:layout_width="match_parent"
+        android:paddingTop="50dp"
+        android:layout_height="1000dp">
+
+
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/sellcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/order_all">
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Start searching seller and product for reselling"
+        android:textStyle="bold"
+        android:id="@+id/firstusetext"/>
+    <ProgressBar
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/progressbarnew"
+        android:layout_below="@id/firstusetext"
+        android:layout_centerHorizontal="true"/>
+    <!--<ScrollView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="">-->
+
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--&gt;-->
+
+
+
+            <!--</RelativeLayout>-->
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scrollbars="none">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/relativeLayout_stories"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/ic_arrow"-->
+                    <!--/>-->
+    <!---->
+            <!--</LinearLayout>-->
+            <!--</HorizontalScrollView>-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <com.eschao.android.widget.elasticlistview.ElasticListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@null"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:dividerHeight="1px"
+        android:scrollbars="none"
+        android:id="@+id/listView"
+        android:overScrollMode="never"
+        android:fadingEdge="none"
+        android:divider="@null"
+        />
+            <com.baoyz.widget.PullRefreshLayout
+                android:id="@+id/swipeRefreshLayout"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                app:refreshType="smartisan"
+                >
+
+                <!--android:layout_marginTop="110dp"-->
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recycler_view"
+                    android:layout_below="@id/listView"
+                    />
+
+            </com.baoyz.widget.PullRefreshLayout>
+    </LinearLayout>
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+</RelativeLayout>

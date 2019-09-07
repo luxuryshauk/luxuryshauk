@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1066529148598-hroqqgcnq0g32tfd69jqhbt029rofm1p.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://instaaselldbase.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1066529148598</string>
+    <string name="google_api_key" translatable="false">AIzaSyCpkGd8WFpk9k0GAYBpKM3buzTHEfpdsJw</string>
+    <string name="google_app_id" translatable="false">1:1066529148598:android:28f6c3e4a8ab53bf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCpkGd8WFpk9k0GAYBpKM3buzTHEfpdsJw</string>
+    <string name="google_storage_bucket" translatable="false">instaaselldbase.appspot.com</string>
+    <string name="project_id" translatable="false">instaaselldbase</string>
+</resources>

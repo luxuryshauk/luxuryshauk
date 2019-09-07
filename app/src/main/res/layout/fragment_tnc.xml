@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:translationZ="2dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LuxuryShauk Terms and Condition"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:id="@+id/heading"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold"
+                    />
+            <TextView
+                android:layout_below="@id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\nLuxuryShauk is majorly a b2b e-commerce platform, where sellers can list their products and sell them. These products are listed and sold by directly from sellers, LuxuryShauk do not hold any of the product. These products can be further sold by Resellers by adding these products to their store, or by sharing the link on any platform.
+
+    \n\nLuxuryShauk provide a platform to display products and provide payment gateway services. For these service LuxuryShauk charge merely 5% commission on sales amount. this 5% includes all the charges of payment gateway and other preliminary expenses.
+
+    \n\nLuxuryShauk do not hold the responsibility of wrong product delivery or any kind of fraud happens while product delivery.
+
+    \n\nBut we are providing 100% buyers protection and secure payment transaction. By our newly designed E-commerce format. For detailed reading of this format please visit (TandC) in LuxuryShauk app.
+
+    \n\nterms and conditions for selling and buying on LuxuryShauk:
+
+    \n\n1. It is mandatory to pack your parcel with LuxuryShauk packing tape.Exclusively available on LuxuryShauk. If customer claim for return/refund due to any issue like damage, fraud, delay or any other activity cause to buyer, and that parcel has not packed using LuxuryShauk tape (not sealed with LuxuryShauk tape), in that case without any further investigation customer will get his/her refund and you will get charged by 5% penalty of total sale.
+
+    \n\n2.Any order fail to deliver within 12 days in India from the date of order, will be cancelled automatically. And amount will be refund to the customer and 5% penalty will be charged on seller.
+
+    \n\n3. LuxuryShauk have a right to cancel any order at any ground if any user found doing or conducting any suspicious activity, or any LuxuryShauk executive found any user conducting any activity which has intention to hurt business ethics or leading to any fraudulent activity, or hurting buyer interest or similar. At any point LuxuryShauk hold a right to cancel order, forfeit amount, or blocking or removing the users account.
+
+    \n\n4. if you seller\'s done fraud, send wrong product, wrong color, wrong size, used product, product different from picture uploaded, Damage product, product gets damage in transit, lost in transit or any case happens trouble the customer experience, in that case customer can claim form return/refund/exchange. and you will be liable for that. and due to these cause customer have a right to cancel the order and you will get charged with the penalty of 5% of sale amount.
+
+    \n\n5. LuxuryShauk is a reselling platform which runs on modern format, which allow seller to send products from anywhere, while other majority e-commerce platform allow you to send only your in hand products. Hence for supporting this new and modern concept, where people can also earn form home, we do not provide courier service which restrict the format only to the sellers. And do not allow to sell the resellers to sell any other seller\'s product.
+    For supporting resellers concept we have given sellers a privilege to send courier by yourself. This also makes you a responsible to deliver the product in a right and efficient way, in order to complete the order.
+
+    \n\n6. One you received an order you have 4 days to upload the tracking details in app tracking section to avoid cancellation of order. If you fail to upload right tracking details, including tracking slip photo, courier company name and tracking no. with in 4 days your order will get automatically cancelled, and you will be charged with 5% penalty of total order amount.
+
+    \n\n7. once you have uploaded the tracking, our LuxuryShauk executive will regularly track the parcel, if something happens you will be notify in your tracking status in tracking section of app. but coordinating and successful of parcel is your responsibility, hence you need to coordinate with your courier guy to get this done, if somethings goes wrong in transit. you have 12 days to get the parcel delivered before it gets cancelled automatically.
+
+    \n\n8. After your parcel is delivered customer has 2 days to raise a complaint. if customer doesn't raise a complaint with in given time. we will release your payment in to your LuxuryShauk wallet. further that you can put a cash out request to transfer your wallet amount into you bank account. these bank account details you will provide every time you put a cash out request in the app. your cash out request will be processed within 2-3 days, transfer of cash can also stretch for more 2-3 days due to many external factors like bank holidays, server busy, or any other issue.
+
+    \n\n9. The products you offer for sale on LuxuryShauk must comply with your seller agreement, including all applicable LuxuryShauk policies, and all applicable laws and regulations. Before listing products, make sure that you understand all your responsibilities as a seller.
+
+    \n\n10. All sellers are expected to adhere to the following policies when listing products on LuxuryShauk. Seller offenses and prohibited content can result in suspension of your LuxuryShauk account.
+
+    \n\n11. Seller Code of Conduct Principles:
+    \n\nAdhere to all applicable laws and abide by all LuxuryShauk policies.
+    \n\nNever misrepresent yourself.
+    \n\nNever list products that may cause harm to LuxuryShauk customers.
+    \n\nNever engage in any misleading, inappropriate or offensive behavior. This applies to all your activities, including but not limited to:
+    \n\nInformation provided on your account
+    \n\nInformation provided in listings, content or images
+    \n\nCommunication between you and LuxuryShauk or you and our customers
+    \n\n
+    \n\nAct fairly at all times. Unfair behavior includes but is not limited to the following:
+    \n\nBehavior that could be deemed as manipulation or *gaming* of any part of the buying or selling experience
+    \n\nActions that could be perceived as manipulating customer reviews, including by directly or indirectly contributing false, misleading or inauthentic content
+    \n\nActivities that could be perceived as attempting to manipulate LuxuryShauk\'s search results or sales rankings
+    \n\nActions that intentionally damage another seller, their listings or their ratings
+    \n\n
+    \n\nCertain products cannot be listed or sold on LuxuryShauk. Some products may not be listed as a matter of compliance with legal or regulatory restrictions (for example, illegal drugs, Medicines, Loose edible products, ) or per LuxuryShauk policy (for example, crime scene photos). and many other Mentioned in TandC in app.
+    \n\nIf you supply a product in violation of the law or any of LuxuryShauk’s policies, including those listed on the Restricted Products pages, we will take corrective actions, as appropriate, including immediately suspending or terminating selling privileges, destroying inventory in our fulfillment centers without reimbursement, returning inventory, terminating the business relationship, and permanent withholding of payments. The sale of illegal or unsafe products can also lead to legal action, including civil and criminal penalties.
+    \n\nLuxuryShauk encourages you to report listings that violate LuxuryShauk\'s policies or applicable law by contacting us. We will investigate each report thoroughly and take appropriate action.
+    \n\nRestricted products
+    \n\nAlcohol
+    \n\nAnimals
+    \n\nArt - Fine Art
+    \n\nCurrency, Coins, Cash Equivalents, and Gift Cards
+    \n\nDietary Supplements
+    \n\nDrugs and drug paraphernalia
+    \n\nExplosives, Weapons, and Related Items
+    \n\nFood and Beverage
+    \n\nGambling and Lottery
+    \n\nHazardous and Dangerous Items
+    \n\nHuman Parts and Burial Artifacts
+    \n\nGold, Silver, Diamond, platinum
+    \n\nMedical devices and accessories
+    \n\nOffensive and Controversial Materials
+    \n\nPesticides and Pesticide Devices
+    \n\nSex and Sensuality
+    \n\nSubscriptions and Periodicals
+    \n\nTobacco and Tobacco-Related Products
+    \n\nWarranties, Service Plans, Contracts, and Guarantees
+    \n\nOther Restricted Products"
+                android:padding="10dp">
+
+            </TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

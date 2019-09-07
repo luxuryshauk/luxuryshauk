@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/layout_center_viewpager"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relLayout1">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout2">
+
+            <include layout="@layout/snippet_top_accountsettingtoolbar"/>
+
+        </RelativeLayout>
+<RelativeLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/new_rel"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orders"
+        android:id="@+id/text_order"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        android:background="@drawable/grey_border_bottom"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_buy_button"
+        android:layout_below="@id/text_order"
+        android:text="Buy"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/grey_border"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_order"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/order_buy_button"
+        android:translationZ="2dp"
+        android:id="@+id/unseen_buy"
+        android:src="@drawable/ic_blue_circle" />
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_sold_button"
+        android:layout_below="@id/text_order"
+        android:text="Sold"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/grey_border"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_order"
+        android:layout_marginLeft="-45dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/order_sold_button"
+        android:translationZ="2dp"
+        android:id="@+id/unseen_sell"
+        android:src="@drawable/ic_blue_circle" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_order"
+        android:layout_marginLeft="-75dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/order_sold_button"
+        android:translationZ="2dp"
+        android:id="@+id/track_sell_indicator"
+        android:src="@color/darkRed"
+        android:padding="2dp"
+        />
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relLayout3"
+            android:layout_below="@+id/new_rel"
+            android:layout_marginBottom="50dp">
+
+
+            <include layout="@layout/layout_center_accountsettings"/>
+
+        </RelativeLayout>
+
+
+
+
+        <include layout="@layout/layout_bottom_navigation_view"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

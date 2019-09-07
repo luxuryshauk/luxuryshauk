@@ -1,0 +1,850 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:grantUriPermissions
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:32:13-47
+	android:authorities
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:30:13-76
+	android:exported
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:29:13-67
+manifest
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+MERGED from [com.dinuscxj:circleprogressbar:1.3.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleprogressbar-1.3.0.aar/a9473ac366951b275fa6c267605fb3e8/AndroidManifest.xml:2:1-16:12
+MERGED from [q.rorbin:badgeview:1.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.0.aar/321eccbc1a02440e2aa53cfc9ee1fb66/AndroidManifest.xml:2:1-13:12
+MERGED from [com.allenliu.badgeview:library:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/e6b314579b4b4741a4673b7c125795d1/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.yalantis:ucrop:2.2.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/1444026cf23e343b3e1b26c8372797df/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.florent37:camerafragment:1.0.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/camerafragment-1.0.9.aar/fe7d227a66f571aa1d4c0ca4d6e2a22b/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/05ab4ec0f8a02f043ef4e876bcf9be88/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:17:1-37:12
+MERGED from [com.firebaseui:firebase-ui-database:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.3.1.aar/35b54b0d4030be5247d764f94d5aa9c3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8d129f0fb18e4f69ade1dceaa65918ea/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/dd65538e9c3e097f80465fa43e314aba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.1.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.1.9.aar/32db51b44fa9bf2e82a2b4ed6a4d8cdc/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/eef13207f5f85afc681a113aabf008e7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-2.6.0.aar/30c55c2d92d8fde1e3fbf6250f2dfd90/AndroidManifest.xml:17:1-25:12
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/aa9d51f714d399522595defcf6a0b169/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/bd4892a91a386028eead905b0feb39ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/786232bef0c6e99535fea52ecbe1ca1a/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b5288c1025b747cc56238142c42653f7/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/aa76803a6f5c0615cc92c50f963ea13c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.eschao:android-ElasticListView:v1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/android-ElasticListView-v1.0.aar/c44799fe87b1a633fa50e0edd800e0a1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/e9ec55643ca6123ad97521776ef94521/AndroidManifest.xml:2:1-9:12
+MERGED from [com.daimajia.slider:library:1.1.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/47fad05bb07466fd1bcb7f4235d44131/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.6.aar/55008948c816e19001644e5d74ac2906/AndroidManifest.xml:15:1-27:12
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/28492471ecda5db4a49a03ad96312442/AndroidManifest.xml:15:1-26:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/219a0661507dada250dbbf3a5dc24cec/AndroidManifest.xml:17:1-22:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/75496aeb9d38a02c683f1260f068b791/AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6da21f667569a6f8c5dcf8c60a782083/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/bdbc7624efbff0a76a1f64f76006bbc2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/870435326d379c34a94ecea8595e6146/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0eb627de0fffcec352359553b284e23c/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/d1b52af984e5f5b9017222acd7be9393/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2dcc69c274581416b49f7140566224ea/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/ead500b155b73a90a998fac7f7bf5b41/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/ddd699dcce8b56723569d190c3b47fb1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e9fa9337598dfad38161c527c721e940/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/4e8818ac91069988a57a7e1109d7aae4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/108d1bb26ca6b8103c8d77496e7f5575/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/90bf48fe2c570a4f9e7e8027fa7f6af6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/527ffd1e53e4b813f0022f1edf4d8580/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/547a9e6f62c1642911d8f7a10d03be07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-common-4.3.1.aar/4db5f0404b883cc16136412579c50276/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f8378fca772f535a4e0929844287c83e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/7e2010d259e9da4cef90f22faf55161a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/6b66697b11c98fcb773c72178fc4b116/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/e751254edc4269b0cf4f9146154c4b19/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f2c091854b373114ea09845056a646ed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2991ba65f53120e944a4a7934967393b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/adf35a6ac192e2efd617923f8fa96540/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/42601a70d83ee79cb9d8270e5b067e71/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/78be533cd5dbbc180db158ad9e06c897/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/889d9cd54ad8becbdab9c37332a34657/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e5178c3fa582c8020ba59f9413d5064e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8331ce5bc238a2e9d3b067312d73718a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c0a4aa68781fe44dd8ff6c7e52e21b15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6a996f8de1706b02e8ed5c92ac2e6780/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.6.0.aar/05ecfabbf1b358a7cea7f26194c8168b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.6.0.aar/b05b22393c9660df41c73b601e8762fb/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.6.0.aar/bff025660f6e1298efe58063c80d83f4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.6.0.aar/5cf3f3d22d4fb1fd48fadfb3b6a598ca/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.0.aar/9eb00bd27d09c8a4b40f0628086d1962/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b14304b360128be147507b7e917d7eff/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/84b5e5b561fc24bcde70b26a0bc1f349/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff2140924bdacd8df7f5e7a033391ba/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1dc60a5e3db0b872ab34f16d4f0d12cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/0c1b4e02954b1ddaa55ce48d754b1403/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e9ee90b96b0ec9674dbd99d3790b160a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8d00094f5167f5e85575abdddd53ac4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1239c49dfbcc29af1a8e0ecdc6d121c6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4c6e5cfe5c208092f0904b89feb8ea5e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/00c2071f41ea1ceac80338e4b75128e6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fee255e939acd6a6c09e65a4a824f0df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/beb41a3ca65ccfaf5d3b61364e75dfb8/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+	package
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:1-130:12
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.firebaseui:firebase-ui-database:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.3.1.aar/35b54b0d4030be5247d764f94d5aa9c3/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.3.1.aar/35b54b0d4030be5247d764f94d5aa9c3/AndroidManifest.xml:11:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/47fad05bb07466fd1bcb7f4235d44131/AndroidManifest.xml:11:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/47fad05bb07466fd1bcb7f4235d44131/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.6.aar/55008948c816e19001644e5d74ac2906/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.6.aar/55008948c816e19001644e5d74ac2906/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/28492471ecda5db4a49a03ad96312442/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/28492471ecda5db4a49a03ad96312442/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:7:5-64
+MERGED from [com.github.florent37:camerafragment:1.0.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/camerafragment-1.0.9.aar/fe7d227a66f571aa1d4c0ca4d6e2a22b/AndroidManifest.xml:11:5-65
+MERGED from [com.github.florent37:camerafragment:1.0.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/camerafragment-1.0.9.aar/fe7d227a66f571aa1d4c0ca4d6e2a22b/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:7:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:8:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:9:19-67
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:10:22-66
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:13:5-80
+MERGED from [com.daimajia.slider:library:1.1.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/47fad05bb07466fd1bcb7f4235d44131/AndroidManifest.xml:12:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/47fad05bb07466fd1bcb7f4235d44131/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:14:22-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:15:22-68
+application
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:18:5-128:19
+MERGED from [com.dinuscxj:circleprogressbar:1.3.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleprogressbar-1.3.0.aar/a9473ac366951b275fa6c267605fb3e8/AndroidManifest.xml:11:5-14:19
+MERGED from [com.dinuscxj:circleprogressbar:1.3.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleprogressbar-1.3.0.aar/a9473ac366951b275fa6c267605fb3e8/AndroidManifest.xml:11:5-14:19
+MERGED from [q.rorbin:badgeview:1.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.0.aar/321eccbc1a02440e2aa53cfc9ee1fb66/AndroidManifest.xml:11:5-20
+MERGED from [q.rorbin:badgeview:1.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.0.aar/321eccbc1a02440e2aa53cfc9ee1fb66/AndroidManifest.xml:11:5-20
+MERGED from [com.allenliu.badgeview:library:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/e6b314579b4b4741a4673b7c125795d1/AndroidManifest.xml:11:5-14:19
+MERGED from [com.allenliu.badgeview:library:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/e6b314579b4b4741a4673b7c125795d1/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/05ab4ec0f8a02f043ef4e876bcf9be88/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/05ab4ec0f8a02f043ef4e876bcf9be88/AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:22:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8d129f0fb18e4f69ade1dceaa65918ea/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8d129f0fb18e4f69ade1dceaa65918ea/AndroidManifest.xml:9:5-20
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.1.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.1.9.aar/32db51b44fa9bf2e82a2b4ed6a4d8cdc/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.1.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.1.9.aar/32db51b44fa9bf2e82a2b4ed6a4d8cdc/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/eef13207f5f85afc681a113aabf008e7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/eef13207f5f85afc681a113aabf008e7/AndroidManifest.xml:22:5-20
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/aa9d51f714d399522595defcf6a0b169/AndroidManifest.xml:11:5-12:19
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/aa9d51f714d399522595defcf6a0b169/AndroidManifest.xml:11:5-12:19
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/786232bef0c6e99535fea52ecbe1ca1a/AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/786232bef0c6e99535fea52ecbe1ca1a/AndroidManifest.xml:13:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/aa76803a6f5c0615cc92c50f963ea13c/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/aa76803a6f5c0615cc92c50f963ea13c/AndroidManifest.xml:9:5-20
+MERGED from [com.github.eschao:android-ElasticListView:v1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/android-ElasticListView-v1.0.aar/c44799fe87b1a633fa50e0edd800e0a1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.eschao:android-ElasticListView:v1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/android-ElasticListView-v1.0.aar/c44799fe87b1a633fa50e0edd800e0a1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/e9ec55643ca6123ad97521776ef94521/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/e9ec55643ca6123ad97521776ef94521/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/bdbc7624efbff0a76a1f64f76006bbc2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/bdbc7624efbff0a76a1f64f76006bbc2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0eb627de0fffcec352359553b284e23c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0eb627de0fffcec352359553b284e23c/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/d1b52af984e5f5b9017222acd7be9393/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/d1b52af984e5f5b9017222acd7be9393/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2dcc69c274581416b49f7140566224ea/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2dcc69c274581416b49f7140566224ea/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/ead500b155b73a90a998fac7f7bf5b41/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/ead500b155b73a90a998fac7f7bf5b41/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/ddd699dcce8b56723569d190c3b47fb1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/ddd699dcce8b56723569d190c3b47fb1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e9fa9337598dfad38161c527c721e940/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e9fa9337598dfad38161c527c721e940/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/4e8818ac91069988a57a7e1109d7aae4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/4e8818ac91069988a57a7e1109d7aae4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/90bf48fe2c570a4f9e7e8027fa7f6af6/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/90bf48fe2c570a4f9e7e8027fa7f6af6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6a996f8de1706b02e8ed5c92ac2e6780/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6a996f8de1706b02e8ed5c92ac2e6780/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff2140924bdacd8df7f5e7a033391ba/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff2140924bdacd8df7f5e7a033391ba/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6a996f8de1706b02e8ed5c92ac2e6780/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:21:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:26:9-44
+	android:roundIcon
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:22:9-54
+	android:largeHeap
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:25:9-33
+	android:icon
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:24:9-40
+activity#com.luxuryshauk.Home.HomeActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:38:9-44:20
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:40:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:41:13-48
+	android:exported
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:42:13-36
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:39:13-61
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:45:9-49:71
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:47:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:48:13-48
+	android:theme
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:49:13-69
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:46:13-60
+activity#com.luxuryshauk.Likes.LikesActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:50:9-52:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:52:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:50:19-69
+activity#com.luxuryshauk.Login.ResetActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:53:9-55:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:55:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:54:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:53:19-69
+activity#com.luxuryshauk.Utils.FullScreenImage
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:57:9-59:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:59:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:58:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:57:19-71
+activity#com.luxuryshauk.Profile.CashoutActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:60:9-62:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:62:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:61:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:60:19-73
+activity#com.luxuryshauk.Profile.ProfileActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:63:9-65:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:63:19-73
+activity#com.luxuryshauk.Search.SearchItemUser
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:66:9-68:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:68:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:67:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:66:19-71
+activity#com.luxuryshauk.Share.ShareActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:70:9-72:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:72:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:71:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:70:19-69
+activity#com.luxuryshauk.Utils.MyWalletActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:73:9-75:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:75:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:74:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:73:19-72
+activity#com.luxuryshauk.Profile.SetProfilePic
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:76:9-78:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:78:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:77:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:76:19-71
+activity#com.luxuryshauk.Home.MessageActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:80:9-82:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:82:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:81:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:80:19-70
+activity#com.luxuryshauk.Share.NextActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:83:9-85:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:85:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:84:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:83:19-68
+activity#com.luxuryshauk.Utils.buy
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:86:9-88:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:88:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:87:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:86:19-59
+activity#com.luxuryshauk.Utils.sell
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:89:9-91:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:91:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:90:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:89:19-60
+activity#com.luxuryshauk.Utils.PlaceOrder
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:92:9-95:20
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:94:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:93:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:92:19-66
+activity#com.luxuryshauk.Login.LoginActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:96:9-103:20
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:98:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:97:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:96:19-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:99:13-102:29
+action#android.intent.action.MAIN
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:100:17-68
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:100:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:101:17-76
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:101:27-74
+activity#com.luxuryshauk.Profile.AccountSettingsActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:104:9-107:48
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:106:13-49
+	android:excludeFromRecents
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:107:13-46
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:105:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:104:19-81
+activity#com.luxuryshauk.Login.RegisterActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:108:9-110:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:110:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:109:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:108:19-72
+activity#com.luxuryshauk.opengl.OpenGLES10Activity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:111:9-113:57
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:113:19-55
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:112:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:111:19-75
+activity#com.luxuryshauk.opengl.NewStoryActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:114:9-116:57
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:116:19-55
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:115:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:114:19-73
+activity#com.luxuryshauk.Home.AddActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:117:9-119:51
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:119:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:118:13-48
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:117:19-66
+activity#com.luxuryshauk.Search.SearchActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:120:9-125:20
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:124:13-49
+	android:launchMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:122:13-48
+	android:windowSoftInputMode
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:123:13-56
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:121:13-65
+activity#com.luxuryshauk.materialcamera.CaptureActivity
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:126:9-119
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:126:81-117
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:126:19-80
+activity#com.luxuryshauk.materialcamera.CaptureActivity2
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:127:9-120
+	android:screenOrientation
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:127:82-118
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:127:19-81
+uses-sdk
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+MERGED from [com.dinuscxj:circleprogressbar:1.3.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleprogressbar-1.3.0.aar/a9473ac366951b275fa6c267605fb3e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.dinuscxj:circleprogressbar:1.3.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleprogressbar-1.3.0.aar/a9473ac366951b275fa6c267605fb3e8/AndroidManifest.xml:7:5-9:41
+MERGED from [q.rorbin:badgeview:1.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.0.aar/321eccbc1a02440e2aa53cfc9ee1fb66/AndroidManifest.xml:7:5-9:41
+MERGED from [q.rorbin:badgeview:1.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.0.aar/321eccbc1a02440e2aa53cfc9ee1fb66/AndroidManifest.xml:7:5-9:41
+MERGED from [com.allenliu.badgeview:library:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/e6b314579b4b4741a4673b7c125795d1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.allenliu.badgeview:library:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/e6b314579b4b4741a4673b7c125795d1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/1444026cf23e343b3e1b26c8372797df/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/1444026cf23e343b3e1b26c8372797df/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.florent37:camerafragment:1.0.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/camerafragment-1.0.9.aar/fe7d227a66f571aa1d4c0ca4d6e2a22b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.florent37:camerafragment:1.0.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/camerafragment-1.0.9.aar/fe7d227a66f571aa1d4c0ca4d6e2a22b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/05ab4ec0f8a02f043ef4e876bcf9be88/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/05ab4ec0f8a02f043ef4e876bcf9be88/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.3.1.aar/35b54b0d4030be5247d764f94d5aa9c3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.3.1.aar/35b54b0d4030be5247d764f94d5aa9c3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8d129f0fb18e4f69ade1dceaa65918ea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8d129f0fb18e4f69ade1dceaa65918ea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:exifinterface:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/dd65538e9c3e097f80465fa43e314aba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/dd65538e9c3e097f80465fa43e314aba/AndroidManifest.xml:20:5-44
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.1.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.1.9.aar/32db51b44fa9bf2e82a2b4ed6a4d8cdc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ittianyu:BottomNavigationViewEx:1.1.9] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/BottomNavigationViewEx-1.1.9.aar/32db51b44fa9bf2e82a2b4ed6a4d8cdc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/eef13207f5f85afc681a113aabf008e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/eef13207f5f85afc681a113aabf008e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-2.6.0.aar/30c55c2d92d8fde1e3fbf6250f2dfd90/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-2.6.0.aar/30c55c2d92d8fde1e3fbf6250f2dfd90/AndroidManifest.xml:21:5-23:41
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/aa9d51f714d399522595defcf6a0b169/AndroidManifest.xml:7:5-9:41
+MERGED from [com.baoyz.pullrefreshlayout:library:1.2.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/aa9d51f714d399522595defcf6a0b169/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/bd4892a91a386028eead905b0feb39ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/bd4892a91a386028eead905b0feb39ca/AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/786232bef0c6e99535fea52ecbe1ca1a/AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/786232bef0c6e99535fea52ecbe1ca1a/AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b5288c1025b747cc56238142c42653f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/b5288c1025b747cc56238142c42653f7/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/aa76803a6f5c0615cc92c50f963ea13c/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/aa76803a6f5c0615cc92c50f963ea13c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.eschao:android-ElasticListView:v1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/android-ElasticListView-v1.0.aar/c44799fe87b1a633fa50e0edd800e0a1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.eschao:android-ElasticListView:v1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/android-ElasticListView-v1.0.aar/c44799fe87b1a633fa50e0edd800e0a1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/e9ec55643ca6123ad97521776ef94521/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/e9ec55643ca6123ad97521776ef94521/AndroidManifest.xml:5:5-44
+MERGED from [com.daimajia.slider:library:1.1.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/47fad05bb07466fd1bcb7f4235d44131/AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.slider:library:1.1.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.1.5.aar/47fad05bb07466fd1bcb7f4235d44131/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.6.aar/55008948c816e19001644e5d74ac2906/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.6.aar/55008948c816e19001644e5d74ac2906/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/28492471ecda5db4a49a03ad96312442/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/28492471ecda5db4a49a03ad96312442/AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/219a0661507dada250dbbf3a5dc24cec/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/219a0661507dada250dbbf3a5dc24cec/AndroidManifest.xml:20:5-43
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/75496aeb9d38a02c683f1260f068b791/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/75496aeb9d38a02c683f1260f068b791/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6da21f667569a6f8c5dcf8c60a782083/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6da21f667569a6f8c5dcf8c60a782083/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/bdbc7624efbff0a76a1f64f76006bbc2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/bdbc7624efbff0a76a1f64f76006bbc2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/870435326d379c34a94ecea8595e6146/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/870435326d379c34a94ecea8595e6146/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0eb627de0fffcec352359553b284e23c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/0eb627de0fffcec352359553b284e23c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/d1b52af984e5f5b9017222acd7be9393/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/d1b52af984e5f5b9017222acd7be9393/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2dcc69c274581416b49f7140566224ea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2dcc69c274581416b49f7140566224ea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/ead500b155b73a90a998fac7f7bf5b41/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/ead500b155b73a90a998fac7f7bf5b41/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/ddd699dcce8b56723569d190c3b47fb1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/ddd699dcce8b56723569d190c3b47fb1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e9fa9337598dfad38161c527c721e940/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/e9fa9337598dfad38161c527c721e940/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/4e8818ac91069988a57a7e1109d7aae4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/4e8818ac91069988a57a7e1109d7aae4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/108d1bb26ca6b8103c8d77496e7f5575/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/108d1bb26ca6b8103c8d77496e7f5575/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/90bf48fe2c570a4f9e7e8027fa7f6af6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/90bf48fe2c570a4f9e7e8027fa7f6af6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/527ffd1e53e4b813f0022f1edf4d8580/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/527ffd1e53e4b813f0022f1edf4d8580/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/547a9e6f62c1642911d8f7a10d03be07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/547a9e6f62c1642911d8f7a10d03be07/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-common-4.3.1.aar/4db5f0404b883cc16136412579c50276/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:4.3.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-ui-common-4.3.1.aar/4db5f0404b883cc16136412579c50276/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f8378fca772f535a4e0929844287c83e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f8378fca772f535a4e0929844287c83e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/7e2010d259e9da4cef90f22faf55161a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/7e2010d259e9da4cef90f22faf55161a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/6b66697b11c98fcb773c72178fc4b116/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/6b66697b11c98fcb773c72178fc4b116/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/e751254edc4269b0cf4f9146154c4b19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/e751254edc4269b0cf4f9146154c4b19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f2c091854b373114ea09845056a646ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/f2c091854b373114ea09845056a646ed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2991ba65f53120e944a4a7934967393b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2991ba65f53120e944a4a7934967393b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/adf35a6ac192e2efd617923f8fa96540/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/adf35a6ac192e2efd617923f8fa96540/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/42601a70d83ee79cb9d8270e5b067e71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/42601a70d83ee79cb9d8270e5b067e71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/78be533cd5dbbc180db158ad9e06c897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/78be533cd5dbbc180db158ad9e06c897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/889d9cd54ad8becbdab9c37332a34657/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/889d9cd54ad8becbdab9c37332a34657/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e5178c3fa582c8020ba59f9413d5064e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e5178c3fa582c8020ba59f9413d5064e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8331ce5bc238a2e9d3b067312d73718a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8331ce5bc238a2e9d3b067312d73718a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c0a4aa68781fe44dd8ff6c7e52e21b15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c0a4aa68781fe44dd8ff6c7e52e21b15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6a996f8de1706b02e8ed5c92ac2e6780/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6a996f8de1706b02e8ed5c92ac2e6780/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.6.0.aar/05ecfabbf1b358a7cea7f26194c8168b/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.6.0.aar/05ecfabbf1b358a7cea7f26194c8168b/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.6.0.aar/b05b22393c9660df41c73b601e8762fb/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.6.0.aar/b05b22393c9660df41c73b601e8762fb/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.6.0.aar/bff025660f6e1298efe58063c80d83f4/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.6.0.aar/bff025660f6e1298efe58063c80d83f4/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.6.0.aar/5cf3f3d22d4fb1fd48fadfb3b6a598ca/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.6.0.aar/5cf3f3d22d4fb1fd48fadfb3b6a598ca/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.0.aar/9eb00bd27d09c8a4b40f0628086d1962/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.0.aar/9eb00bd27d09c8a4b40f0628086d1962/AndroidManifest.xml:21:5-23:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b14304b360128be147507b7e917d7eff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b14304b360128be147507b7e917d7eff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/84b5e5b561fc24bcde70b26a0bc1f349/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/84b5e5b561fc24bcde70b26a0bc1f349/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff2140924bdacd8df7f5e7a033391ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ff2140924bdacd8df7f5e7a033391ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1dc60a5e3db0b872ab34f16d4f0d12cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1dc60a5e3db0b872ab34f16d4f0d12cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/0c1b4e02954b1ddaa55ce48d754b1403/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/0c1b4e02954b1ddaa55ce48d754b1403/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e9ee90b96b0ec9674dbd99d3790b160a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e9ee90b96b0ec9674dbd99d3790b160a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8d00094f5167f5e85575abdddd53ac4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8d00094f5167f5e85575abdddd53ac4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1239c49dfbcc29af1a8e0ecdc6d121c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/1239c49dfbcc29af1a8e0ecdc6d121c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4c6e5cfe5c208092f0904b89feb8ea5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/4c6e5cfe5c208092f0904b89feb8ea5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/00c2071f41ea1ceac80338e4b75128e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/00c2071f41ea1ceac80338e4b75128e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fee255e939acd6a6c09e65a4a824f0df/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fee255e939acd6a6c09e65a4a824f0df/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/beb41a3ca65ccfaf5d3b61364e75dfb8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/beb41a3ca65ccfaf5d3b61364e75dfb8/AndroidManifest.xml:5:5-44
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/786232bef0c6e99535fea52ecbe1ca1a/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:33:13-35:57
+	android:resource
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:35:17-55
+	android:name
+		ADDED from /Users/stewpeed/Desktop/work/instaasell/app/src/main/AndroidManifest.xml:34:17-67
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/94447921c7bcdc27a004d6c8bcb73587/AndroidManifest.xml:9:13-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/5bbfb3bd78a5e276415d7335d7a9b9f5/AndroidManifest.xml:32:25-75
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/e34358ed3c84e57810b6e4f935778300/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.6.aar/55008948c816e19001644e5d74ac2906/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/28492471ecda5db4a49a03ad96312442/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/28492471ecda5db4a49a03ad96312442/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.6.aar/55008948c816e19001644e5d74ac2906/AndroidManifest.xml:24:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/85e7a50e8dd3b816ea03a61b751e8e4b/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/79b2e5843969a747b834cfccf4c88e71/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/496dff128f21679f52311d9cf4bf2b48/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/d905e4e957613a69d7762a1082548d66/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ba50148178c361819146720e48ebeb7e/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/4794175483df8092606e96b36f8f08df/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/stewpeed/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3a1bddde347387b78f139195a46ab5b3/AndroidManifest.xml:24:13-58

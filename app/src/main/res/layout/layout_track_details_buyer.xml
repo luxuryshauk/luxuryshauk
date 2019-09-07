@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/snippet_top_view_profilebar"/>
+
+    <TextView
+        android:id="@+id/courier_service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Courier Service Name"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Courier Number"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/courier_service_name"
+        android:id="@+id/courier_number"
+        />
+
+    <!--<ImageView
+        android:layout_below="@+id/courier_number"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/upload_btn"
+        android:src="@drawable/ic_camera"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Click To View Reciept"
+        android:padding="10dp"
+        android:layout_below="@+id/courier_number"
+        android:layout_centerHorizontal="true"
+        android:background="#8BC34A"
+        android:textStyle="bold"
+        android:id="@+id/download"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:text=""
+        android:layout_below="@id/download"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relLayout1">
+
+                <!-- toolbar -->
+                <include layout="@layout/snippet_top_nexttoolbar"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relLayout1"
+                android:id="@+id/relLayout2"
+                android:background="@drawable/grey_border_bottom">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageShare"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="40dp"/>
+
+                <EditText
+                    android:id="@+id/caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/imageShare"
+                    android:background="@null"
+                    android:textSize="15sp"
+                    android:hint="Write a description..." />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/price"
+                    android:layout_marginLeft="20dp"
+                    android:layout_below="@id/caption"
+                    android:layout_toRightOf="@id/imageShare"
+                    android:background="@null"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:hint="Price"
+                    android:inputType="number"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/price"
+                    android:layout_toRightOf="@id/imageShare"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Commision"
+                    android:textSize="10sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    android:autoSizeMinTextSize="5sp"
+                    android:textColor="#750000"
+                    android:id="@+id/price_com"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_below="@id/price_com"
+                    android:layout_toRightOf="@id/imageShare"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Earn"
+                    android:textSize="10sp"
+                    android:autoSizeMaxTextSize="15sp"
+                    android:autoSizeMinTextSize="5sp"
+                    android:textColor="#047500"
+                    android:id="@+id/price_earn"/>
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uploading Photos"
+                android:layout_below="@id/relLayout2"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/uploading"
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"/>
+            <ProgressBar
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/uploading"
+                android:visibility="invisible"
+                android:id="@+id/uploading_p"
+                android:layout_centerHorizontal="true"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

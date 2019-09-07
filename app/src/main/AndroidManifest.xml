@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.luxuryshauk">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false">
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.com.luxuryshauk.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <activity
+            android:name="com.luxuryshauk.Home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:exported="true"
+            >
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="com.luxuryshauk.Likes.LikesActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Login.ResetActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.luxuryshauk.Utils.FullScreenImage"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Profile.CashoutActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Profile.ProfileActivity"
+
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Search.SearchItemUser"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.luxuryshauk.Share.ShareActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Utils.MyWalletActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Profile.SetProfilePic"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.luxuryshauk.Home.MessageActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Share.NextActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Utils.buy"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Utils.sell"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Utils.PlaceOrder"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.luxuryshauk.Login.LoginActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.luxuryshauk.Profile.AccountSettingsActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true"/>
+        <activity android:name="com.luxuryshauk.Login.RegisterActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.opengl.OpenGLES10Activity"
+            android:launchMode="singleInstance"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.opengl.NewStoryActivity"
+            android:launchMode="singleInstance"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.Home.AddActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.luxuryshauk.Search.SearchActivity"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.luxuryshauk.materialcamera.CaptureActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.luxuryshauk.materialcamera.CaptureActivity2" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

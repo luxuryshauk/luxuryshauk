@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.allenliu.badgeview:library:1.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/e6b314579b4b4741a4673b7c125795d1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.1.1.aar/e6b314579b4b4741a4673b7c125795d1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.allenliu.badgeview/library/1.1.1/ddb561fee9e6403ba2a5e77aae511088e0c0b740/library-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
